@@ -1,0 +1,57 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.color-selector-box-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.selection-btn {
+  height: 100px;
+  width: 150px;
+  border: 1px solid #111;
+  margin: 50px 5px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.landing-box-container {
+  display: flex;
+  justify-content: center;
+}
+
+#landing-box {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  height: 500px;
+  width: 900px;
+  overflow: hidden;
+}
+
+.result-box {
+  height: 100px;
+  width: 150px;
+}
