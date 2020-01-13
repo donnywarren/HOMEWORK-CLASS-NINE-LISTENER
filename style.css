@@ -22,23 +22,52 @@ html {
   color: #fff;
   font-size: 24px;
   font-weight: 500;
+  cursor: pointer;
+  box-shadow: 7px 9px #969595;
+  outline: none;
 }
+
 
 .red {
   background-color: red;
+}
+.red:hover {
+  background-color: #cc0302;
+}
+.red:active {
+  background-color: red;
+  box-shadow: 2px 5px #666;
+  transform: translateY(4px);
 }
 
 .green {
   background-color: green;
 }
+.green:hover {
+  background-color: #016101;
+}
+.green:active {
+  background-color: green;
+  box-shadow: 2px 5px #666;
+  transform: translateY(4px);
+}
 
 .blue {
   background-color: blue;
+}
+.blue:hover {
+  background-color: #0101a9;
+}
+.blue:active {
+  background-color: blue;
+  box-shadow: 2px 5px #666;
+  transform: translateY(4px);
 }
 
 .landing-box-container {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 #landing-box {
@@ -53,6 +82,14 @@ html {
 }
 
 .result-box {
-  height: 100px;
-  width: 150px;
+  width: 100px;
 }
+
+
+
+
+
+  /* position: absolute;
+  left: calc(50% - 50px);
+  top: calc(50% - 50px);
+  height: 100px; */
