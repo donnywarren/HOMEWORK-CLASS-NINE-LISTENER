@@ -71,10 +71,6 @@ html {
 }
 
 #landing-box {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  align-content: flex-start;
   height: 500px;
   width: 902px;
   border: 1px solid #111;
@@ -82,14 +78,8 @@ html {
 }
 
 .result-box {
+  display: inline-block;
+  margin-top: -3px;
   width: 100px;
+  height: 100px;
 }
-
-
-
-
-
-  /* position: absolute;
-  left: calc(50% - 50px);
-  top: calc(50% - 50px);
-  height: 100px; */
